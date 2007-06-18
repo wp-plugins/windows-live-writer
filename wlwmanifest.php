@@ -33,18 +33,12 @@ $wlw_options = $wp_wlw->get_options(); //wp-content/plugins/windows-live-writer/
     <button>
       <id>0</id>
       <text>Comments</text>
-      <imageUrl><?php echo $wp_wlw->path; ?>WpStats.png</imageUrl>
+      <imageUrl><?php echo $wp_wlw->path; ?>WpComments.png</imageUrl>
       <clickUrl>
         <![CDATA[ 
 				{blog-postapi-url}/../wp-admin/edit-comments.php
 			]]>
       </clickUrl>
-	  <contentUrl>
-        <![CDATA[ 
-				{blog-homepage-url}/../wp-content/plugins/windows-live-writer/wlwcontent.php?page=comments
-			]]>
-      </contentUrl>
-	  <contentDisplaySize>480,480</contentDisplaySize>
     </button>
 
     <button>
